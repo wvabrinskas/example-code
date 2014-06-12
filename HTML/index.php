@@ -155,25 +155,6 @@ endforeach;
 
 </div>
 
-<!--<div id="online">
-<font size="2" face="verdana" color="White">Currently Online:
-<?php
-mysql_connect("localhost","root","a505af44f9");
-mysql_select_db("login") or die(mysql_error());
- 
-$query = "SELECT * FROM username";
-$onlines = mysql_query($query); 
-while ($online = mysql_fetch_array($onlines)) { 
-
-//echo $online['username'] . " ";
-
-echo "<a href='members.html/?name=" . $online['username'] . "'" . ">" . $online['username'] . "</a>" . " ";
-
-
-
-} ?>
-</font>
-</div> -->
 <h2><div id="share_d">
 <!-- AddThis Follow BEGIN -->
 
